@@ -1,0 +1,115 @@
+body {
+	background-color: rgb(197,197,197);
+	color: #000;
+}
+
+.container {
+	width: 920px ;   
+  margin: 40 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.block-theme { 
+    background-color: #cfcfce;
+    font-family: Arial, serif;
+    font-size: 17px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;;
+    text-align: center;
+    border-radius: 2%;
+    padding: 20px 35px;
+    margin-bottom: 15px;
+    border: 1px solid lightgrey
+}
+
+
+.btn-purple {
+    color: #ffffff;
+    font-family: Arial, serif;
+    font-size: 15px;
+    background-color: #955e69;
+    padding: 12px 17px;
+    border-radius: 3%;
+    transition: color 0.3s ease;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.2);
+}
+
+.btn-purple:hover {
+	color: #955e69;
+	background-color: #F8EAD8;
+  text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: #955e69;
+	font-family: Arial, serif;
+	transition: color 0.3s ease;
+	font-size: 15px;
+}
+a:hover {
+  color: #F8EAD8;
+  text-decoration: none;
+}
+
+h1 {
+ 	color: #955e69;
+  font-family: Helvetica;
+    
+ }
+
+h2 {
+	color: #9f7445;
+	font-family: Helvetica;
+	font-size: 15;
+
+}
+
+.link ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 26px;
+  margin-left: -21px;
+}
+
+.link i {
+	font-size: 30px;
+}
+
+#block1 {
+	padding-top: 0px;
+}
+
+#profile_pic{
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.3);
+	border-radius: 50%;
+}
+
+#intro {
+	margin-bottom: 25px;
+}
